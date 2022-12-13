@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		4A7620DF294248A400D137DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7620DE294248A400D137DB /* AppDelegate.swift */; };
 		4A7620E1294248A400D137DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7620E0294248A400D137DB /* SceneDelegate.swift */; };
-		4A7620E3294248A400D137DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7620E2294248A400D137DB /* ViewController.swift */; };
 		4A7620E6294248A400D137DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7620E4294248A400D137DB /* Main.storyboard */; };
 		4A7620E8294248A500D137DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7620E7294248A500D137DB /* Assets.xcassets */; };
 		4A7620EB294248A500D137DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7620E9294248A500D137DB /* LaunchScreen.storyboard */; };
+		4ADBC1702948552E00C752DC /* FullScreenMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC16A2948552E00C752DC /* FullScreenMapViewController.swift */; };
+		4ADBC1712948552E00C752DC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC16B2948552E00C752DC /* MainViewController.swift */; };
+		4ADBC1722948552E00C752DC /* ComplexMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC16C2948552E00C752DC /* ComplexMapView.swift */; };
+		4ADBC1732948552E00C752DC /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC16D2948552E00C752DC /* FirstTableViewCell.swift */; };
+		4ADBC1742948552E00C752DC /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC16E2948552E00C752DC /* SecondTableViewCell.swift */; };
+		4ADBC1752948552E00C752DC /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBC16F2948552E00C752DC /* ThirdTableViewCell.swift */; };
+		4ADBC177294855AD00C752DC /* ComplexMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADBC176294855AD00C752DC /* ComplexMapView.xib */; };
+		95417C83A7DFF4030EAE8364 /* Pods_YandexMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1938E28072DB75B919848125 /* Pods_YandexMaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1938E28072DB75B919848125 /* Pods_YandexMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		221D576B682E104BE3F9BA4A /* Pods-YandexMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMaps.debug.xcconfig"; path = "Target Support Files/Pods-YandexMaps/Pods-YandexMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		3342A1CA4F8F566DB585E833 /* Pods-YandexMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMaps.release.xcconfig"; path = "Target Support Files/Pods-YandexMaps/Pods-YandexMaps.release.xcconfig"; sourceTree = "<group>"; };
 		4A7620DB294248A400D137DB /* YandexMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7620DE294248A400D137DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A7620E0294248A400D137DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A7620E2294248A400D137DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A7620E5294248A400D137DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A7620E7294248A500D137DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7620EA294248A500D137DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7620EC294248A500D137DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADBC16A2948552E00C752DC /* FullScreenMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullScreenMapViewController.swift; path = "../../../YandexMaps 2/YandexMaps/FullScreenMapViewController.swift"; sourceTree = "<group>"; };
+		4ADBC16B2948552E00C752DC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../../YandexMaps 2/YandexMaps/MainViewController.swift"; sourceTree = "<group>"; };
+		4ADBC16C2948552E00C752DC /* ComplexMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComplexMapView.swift; path = "../../../YandexMaps 2/YandexMaps/ComplexMapView.swift"; sourceTree = "<group>"; };
+		4ADBC16D2948552E00C752DC /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstTableViewCell.swift; path = "../../../YandexMaps 2/YandexMaps/FirstTableViewCell.swift"; sourceTree = "<group>"; };
+		4ADBC16E2948552E00C752DC /* SecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondTableViewCell.swift; path = "../../../YandexMaps 2/YandexMaps/SecondTableViewCell.swift"; sourceTree = "<group>"; };
+		4ADBC16F2948552E00C752DC /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdTableViewCell.swift; path = "../../../YandexMaps 2/YandexMaps/ThirdTableViewCell.swift"; sourceTree = "<group>"; };
+		4ADBC176294855AD00C752DC /* ComplexMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ComplexMapView.xib; path = "../../../YandexMaps 2/YandexMaps/ComplexMapView.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95417C83A7DFF4030EAE8364 /* Pods_YandexMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E9887F659666AD4EBCA2489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221D576B682E104BE3F9BA4A /* Pods-YandexMaps.debug.xcconfig */,
+				3342A1CA4F8F566DB585E833 /* Pods-YandexMaps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4A7620D2294248A400D137DB = {
 			isa = PBXGroup;
 			children = (
 				4A7620DD294248A400D137DB /* YandexMaps */,
 				4A7620DC294248A400D137DB /* Products */,
+				1E9887F659666AD4EBCA2489 /* Pods */,
+				65D3E9E2E23F95BA933E91C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +86,27 @@
 			children = (
 				4A7620DE294248A400D137DB /* AppDelegate.swift */,
 				4A7620E0294248A400D137DB /* SceneDelegate.swift */,
-				4A7620E2294248A400D137DB /* ViewController.swift */,
+				4ADBC16C2948552E00C752DC /* ComplexMapView.swift */,
+				4ADBC16D2948552E00C752DC /* FirstTableViewCell.swift */,
+				4ADBC16A2948552E00C752DC /* FullScreenMapViewController.swift */,
+				4ADBC16B2948552E00C752DC /* MainViewController.swift */,
+				4ADBC16E2948552E00C752DC /* SecondTableViewCell.swift */,
+				4ADBC16F2948552E00C752DC /* ThirdTableViewCell.swift */,
 				4A7620E4294248A400D137DB /* Main.storyboard */,
+				4ADBC176294855AD00C752DC /* ComplexMapView.xib */,
 				4A7620E7294248A500D137DB /* Assets.xcassets */,
 				4A7620E9294248A500D137DB /* LaunchScreen.storyboard */,
 				4A7620EC294248A500D137DB /* Info.plist */,
 			);
 			path = YandexMaps;
+			sourceTree = "<group>";
+		};
+		65D3E9E2E23F95BA933E91C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1938E28072DB75B919848125 /* Pods_YandexMaps.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A7620EF294248A500D137DB /* Build configuration list for PBXNativeTarget "YandexMaps" */;
 			buildPhases = (
+				D3511EEFC6E8BB9F4F432F16 /* [CP] Check Pods Manifest.lock */,
 				4A7620D7294248A400D137DB /* Sources */,
 				4A7620D8294248A400D137DB /* Frameworks */,
 				4A7620D9294248A400D137DB /* Resources */,
+				84F57FE523F8B4E53CC01750 /* [CP] Embed Pods Frameworks */,
+				30D9BE35CAB829F5E027F135 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ADBC177294855AD00C752DC /* ComplexMapView.xib in Resources */,
 				4A7620EB294248A500D137DB /* LaunchScreen.storyboard in Resources */,
 				4A7620E8294248A500D137DB /* Assets.xcassets in Resources */,
 				4A7620E6294248A400D137DB /* Main.storyboard in Resources */,
@@ -133,14 +179,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30D9BE35CAB829F5E027F135 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YandexMaps/Pods-YandexMaps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YandexMaps/Pods-YandexMaps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YandexMaps/Pods-YandexMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F57FE523F8B4E53CC01750 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YandexMaps/Pods-YandexMaps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YandexMaps/Pods-YandexMaps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YandexMaps/Pods-YandexMaps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3511EEFC6E8BB9F4F432F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YandexMaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A7620D7294248A400D137DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7620E3294248A400D137DB /* ViewController.swift in Sources */,
+				4ADBC1722948552E00C752DC /* ComplexMapView.swift in Sources */,
+				4ADBC1702948552E00C752DC /* FullScreenMapViewController.swift in Sources */,
+				4ADBC1742948552E00C752DC /* SecondTableViewCell.swift in Sources */,
 				4A7620DF294248A400D137DB /* AppDelegate.swift in Sources */,
+				4ADBC1752948552E00C752DC /* ThirdTableViewCell.swift in Sources */,
 				4A7620E1294248A400D137DB /* SceneDelegate.swift in Sources */,
+				4ADBC1712948552E00C752DC /* MainViewController.swift in Sources */,
+				4ADBC1732948552E00C752DC /* FirstTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +394,7 @@
 		};
 		4A7620F0294248A500D137DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221D576B682E104BE3F9BA4A /* Pods-YandexMaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +424,7 @@
 		};
 		4A7620F1294248A500D137DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3342A1CA4F8F566DB585E833 /* Pods-YandexMaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
